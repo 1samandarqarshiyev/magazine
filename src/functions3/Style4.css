@@ -1,0 +1,27 @@
+.background{
+    background-color: #F13C6E;
+}
+.item_1{
+    display: flex;
+    align-items: center;
+
+}
+.item{
+    margin: 10px auto 20px auto;
+}
+.block{
+    margin-top: 5px auto 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: aliceblue;
+}
+.block h1{
+    font-weight: 700;
+}
+.button{
+    background-color: #F13C6E;
+    border: 1px white solid;
+    border-radius: 40px;
+    width: auto;
+}
