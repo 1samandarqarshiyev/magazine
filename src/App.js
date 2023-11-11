@@ -14,6 +14,7 @@ import Facemenu from './functions/Main';
 import Facemenu2 from './functions2/Navitem';
 import Facemenu3 from './functions3/Navitem2';
 import Facemenu4 from './functions4/Navitem3';
+import Facemenu5 from './functions5/Navitem4';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
     <Facemenu2/>
     <Facemenu3/>
     <Facemenu4/>
+    <Facemenu5/>
 
     </>
   )

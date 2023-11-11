@@ -18,10 +18,14 @@
 }
 .block h1{
     font-weight: 700;
+    /* font-size: 250%; */
+}
+.block p{
+    font-size: 110%;
 }
 .button{
     background-color: #F13C6E;
     border: 1px white solid;
     border-radius: 40px;
-    width: auto;
+    width: 300px;
 }

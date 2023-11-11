@@ -9,15 +9,23 @@ export default function Myfunc(){
         <>
         <Container fluid className='knopka_1'>
             <Row>
-                <Col xl={1} lg={1} md={0} sm={0} xs={0}></Col>
-
-                <Col className='knopka_2' xl={2} lg={2} md={4} sm={4} xs={6}> <Link className='knopka_3' to='delivery'>Доставка</Link> </Col>
-                <Col className='knopka_2' xl={2} lg={2} md={4} sm={4} xs={6}> <Link className='knopka_3' to='payment'>Оплата</Link> </Col>
-                <Col className='knopka_2' xl={2} lg={2} md={4} sm={4} xs={6}> <Link className='knopka_3' to='reviews'>Отзывы</Link> </Col>
-                <Col className='knopka_2' xl={2} lg={2} md={6} sm={6} xs={6}> <Link className='knopka_3' to='questionanswer'>Вопрос - ответ</Link> </Col>
-                <Col className='knopka_2' xl={2} lg={2} md={6} sm={6} xs={12}> <Link className='knopka_3' to='contacts'>Контакты</Link> </Col>
-                
-                <Col xl={1} lg={1} md={0} sm={0} xs={0}></Col>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='delivery'>Доставка</Link> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='payment'>Оплата</Link> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='reviews'>Отзывы</Link> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='questionanswer'>Вопрос - ответ</Link> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='contacts'>Контакты</Link> </a>
+                </li>
+            </ul>
             </Row>
         </Container>
 

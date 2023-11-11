@@ -11,7 +11,7 @@ function Myfunc(){
     return(
         <Container className='kreslo'>
             <Row>
-                <Col className='block2' xl={12} lg={12} md={12} sm={12} xs={12}> <img className='img-fluid' src={photo}/> </Col>
+                <Col className='block2' xl={12} lg={12} md={12} sm={12} xs={12}> <img className='img-fluid block2_image' src={photo}/> </Col>
                 <Col className='block2' xl={12} lg={12} md={12} sm={12} xs={12}> <p>Парикмахерское кресло «Норм» гидравлическое</p> </Col>
                 <Col className='block2' xl={12} lg={12} md={12} sm={12} xs={12}> <Link/> </Col>
                 <Col className='block2' xl={12} lg={12} md={12} sm={12} xs={12}> <Button/> </Col>

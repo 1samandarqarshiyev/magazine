@@ -1,0 +1,47 @@
+.background1{
+    background-color: #EFEFEF;
+}
+.items_1{
+    background-color: rgb(255, 0, 0);
+}
+.items_2{
+    min-height: auto;
+    background-color: #F13C6E;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.items_2 p{
+    color: white;
+}
+.item_2_x{
+    font-size: 110%;
+    font-weight: 600;
+}
+.image_sms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_furgon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    border: 0px;
+    border-radius: 40px;
+    color: black;
+}
+.input::placeholder{
+    color: #C4C4C4;
+}
+.button_x{
+    background-color: #F13C6E;
+    border: 2px white solid;
+    width: 100%;
+    margin: 10px auto 10px auto;
+    border-radius: 40px;
+}
