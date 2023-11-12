@@ -2,9 +2,17 @@
     /* background-color: rgba(239, 239, 239, 1); */
     background: linear-gradient(135deg, rgb(37, 0, 46) -10%, #F13C6E 50%, rgb(51, 0, 66) 120%);
     padding: 5px 0px 5px 0px;
+    display: block;
+    z-index: 2;
 }
-.knopka_2{
-    
+.button_modal{
+    background-color: rgb(176, 176, 176);
+    margin: 20px auto auto 50px;
+    border-radius: 15px;
+    border: 1px rgb(255, 255, 255) solid;
+}
+.modal{
+    background-color: red;
 }
 .knopka_3{
     color: rgb(255, 255, 255);
@@ -19,5 +27,25 @@
 }
 .photo_image{
     width: 100%;
-    height: 150vh;
+    min-height: 264px;
+    background-size: cover;
 }
+.info{
+    margin-top: 30px;
+}
+.modal_text_block{
+    color: rgb(10, 0, 103);
+    font-family: Edu TAS Beginner;
+    font-size: 20px;
+    font-weight: 100;
+}
+.coments{
+    margin-top: 30px;
+}
+.button_navbar{
+    background-color: rgb(176, 176, 176);
+    margin: 20px auto auto 50px;
+    border-radius: 15px;
+    border: 1px rgb(255, 255, 255) solid;
+}
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Italianno&display=swap');

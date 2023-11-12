@@ -1,102 +1,29 @@
-import Carousel from 'react-bootstrap/Carousel';
-import photo1 from './images/photo1.jpg';
-import photo2 from './images/photo9.jpg';
-import photo3 from './images/photo13.jpg';
-import photo4 from './images/photo14.jpg';
-import photo5 from './images/photo2.jpg';
-import './Style.css';
+import Facemenu from './functions/Main';
+import Facemenu2 from './functions2/Navitem';
+import Facemenu3 from './functions3/Navitem2';
+import Facemenu4 from './functions4/Navitem3';
+import Facemenu5 from './functions5/Navitem4';
+import Facemenu6 from './functions6/Navitem5';
+import Facemenu7 from './functions7/Navitem6';
+import Facemenu8 from './functions8/Navitem7';
+import Facemenu9 from './functions9/Navitem8';
 
 
-function IndividualIntervalsExample() {
+function BasicExample() {
   return (
-    <Carousel data-bs-theme="dark">
-
-        <Carousel.Item>
-            <img src={photo1} className='img-fluid photo_image'/>
-        </Carousel.Item>
-
-        <Carousel.Item>
-            <img src={photo2} className='img-fluid photo_image'/>
-        </Carousel.Item>
-
-        <Carousel.Item>
-            <img src={photo3} className='img-fluid photo_image'/>   
-        </Carousel.Item>
-
-        <Carousel.Item>
-            <img src={photo4} className='img-fluid photo_image'/>   
-        </Carousel.Item>
-
-        <Carousel.Item>
-            <img src={photo5} className='img-fluid photo_image'/>   
-        </Carousel.Item>
-
-    </Carousel>
+    <>
+        <Facemenu/>
+        <Facemenu2/>
+        <Facemenu3/>
+        <Facemenu4/>
+        <Facemenu5/>
+        <Facemenu6/>
+        <Facemenu7/>
+        <Facemenu8/>
+        <hr/>
+        <Facemenu9/>
+    </>
   );
 }
 
-export default IndividualIntervalsExample;
-
-
-
-
-
-
-
-
-
-// import logo from './logo.svg';
-// import Carousel from 'react-bootstrap/Carousel';
-
-
-//   const Home = () => {
-//       return (
-//         <Carousel data-bs-theme="dark">
-
-
-//         <Carousel.Item>
-//           <img
-//             className="d-block w-100"
-//             src={logo}
-//             alt="First slide"
-//           />
-//           <Carousel.Caption>
-//             <h5>First slide label</h5>
-//             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-//           </Carousel.Caption>
-//         </Carousel.Item>
-
-
-//         <Carousel.Item>
-//           <img
-//             className="d-block w-100"
-//             src={logo}
-//             alt="Second slide"
-//           />
-//           <Carousel.Caption>
-//             <h5>Second slide label</h5>
-//             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-//           </Carousel.Caption>
-//         </Carousel.Item>
-
-
-//         <Carousel.Item>
-//           <img
-//             className="d-block w-100"
-//             src={logo}
-//             alt="Third slide"
-//           />
-//           <Carousel.Caption>
-//             <h5>Third slide label</h5>
-//             <p>
-//               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-//             </p>
-//           </Carousel.Caption>
-//         </Carousel.Item>
-
-
-//       </Carousel>
-//         );;
-//     };
-    
-//     export default Home;
+export default BasicExample;

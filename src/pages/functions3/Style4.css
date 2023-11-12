@@ -1,0 +1,32 @@
+.background{
+    /* background-color: #F13C6E; */
+    background: linear-gradient(135deg, rgb(37, 0, 46) -20%, #F13C6E 50%, rgb(51, 0, 66) 180%);
+}
+.item_1{
+    display: flex;
+    align-items: center;
+
+}
+.item{
+    margin: 10px auto 20px auto;
+}
+.block{
+    margin-top: 5px auto 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: aliceblue;
+}
+.block h1{
+    font-weight: 700;
+    /* font-size: 250%; */
+}
+.block p{
+    font-size: 110%;
+}
+.button{
+    background: linear-gradient(45deg, rgb(37, 0, 46) -10%, #F13C6E 50%, rgb(51, 0, 66) 120%);
+    border: 1px white solid;
+    border-radius: 40px;
+    width: 300px;
+}

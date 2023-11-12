@@ -1,13 +1,38 @@
-import Ratio from 'react-bootstrap/Ratio';
+import Carousel from 'react-bootstrap/Carousel';
+import photo1 from './images/photo1.jpg';
+import photo2 from './images/photo9.jpg';
+import photo3 from './images/photo13.jpg';
+import photo4 from './images/photo14.jpg';
+import photo5 from './images/photo2.jpg';
+import './Style.css';
 
-function BasicExample() {
+
+function IndividualIntervalsExample() {
   return (
-    <div style={{ width: 1320, height: 'auto' }}>
-      <Ratio aspectRatio="16x9">
-        <embed type="image/svg+xml" src="/img/TheresaKnott_castle.svg" />
-      </Ratio>
-    </div>
+    <Carousel data-bs-theme="dark">
+
+        <Carousel.Item>
+            <img src={photo1} className='img-fluid photo_image'/>
+        </Carousel.Item>
+
+        <Carousel.Item>
+            <img src={photo2} className='img-fluid photo_image'/>
+        </Carousel.Item>
+
+        <Carousel.Item>
+            <img src={photo3} className='img-fluid photo_image'/>   
+        </Carousel.Item>
+
+        <Carousel.Item>
+            <img src={photo4} className='img-fluid photo_image'/>   
+        </Carousel.Item>
+
+        <Carousel.Item>
+            <img src={photo5} className='img-fluid photo_image'/>   
+        </Carousel.Item>
+
+    </Carousel>
   );
 }
 
-export default BasicExample;
+export default IndividualIntervalsExample;

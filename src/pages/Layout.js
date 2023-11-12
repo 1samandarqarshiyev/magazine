@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import {Outlet, Link} from 'react-router-dom';
 import './Style.css';
 
+
 export default function Myfunc(){
     return(
         <>
@@ -10,13 +11,13 @@ export default function Myfunc(){
             <Row>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='delivery'>Доставка</Link> </a>
+                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='payment'>Фоновые изображения</Link> </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='payment'>Оплата</Link> </a>
+                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='delivery'>Сайт</Link> </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='reviews'>Отзывы</Link> </a>
+                    <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='reviews'>О нас</Link> </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#"> <Link className='knopka_3' to='questionanswer'>Вопрос - ответ</Link> </a>
@@ -29,6 +30,8 @@ export default function Myfunc(){
         </Container>
 
         <Outlet/>
+
+
         </>
     )
 }
