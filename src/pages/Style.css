@@ -1,18 +1,23 @@
 .knopka_1{
-    background-color: rgba(239, 239, 239, 1);
+    /* background-color: rgba(239, 239, 239, 1); */
+    background: linear-gradient(135deg, rgb(37, 0, 46) -10%, #F13C6E 50%, rgb(51, 0, 66) 120%);
     padding: 5px 0px 5px 0px;
 }
 .knopka_2{
     
 }
 .knopka_3{
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 400;
     text-decoration: none;
     justify-content: center;
     text-align: center;
 }
 .knopka_3:hover{
-    color: white;
+    color: rgb(3, 0, 156);
     font-weight: 500;
+}
+.photo_image{
+    width: 100%;
+    height: 150vh;
 }

@@ -1,11 +1,11 @@
 .background1{
     background-color: #EFEFEF;
 }
-.items_1{
-    background-color: rgb(255, 0, 0);
+.background_item{
+    margin-bottom: 50px;
 }
 .items_2{
-    min-height: auto;
+    height: 53vh;
     background-color: #F13C6E;
     margin-top: 50px;
     padding-top: 30px;

@@ -1,7 +1,13 @@
-function App(){
-    return(
-        <h1>Hello2</h1>
-    )
+import Ratio from 'react-bootstrap/Ratio';
+
+function BasicExample() {
+  return (
+    <div style={{ width: 1320, height: 'auto' }}>
+      <Ratio aspectRatio="16x9">
+        <embed type="image/svg+xml" src="/img/TheresaKnott_castle.svg" />
+      </Ratio>
+    </div>
+  );
 }
 
-export default App;
+export default BasicExample;

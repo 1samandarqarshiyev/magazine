@@ -1,0 +1,13 @@
+.block_1{
+    background-color: #EFEFEF;
+}
+.block_2{
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: white;
+}
+.block_3{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
